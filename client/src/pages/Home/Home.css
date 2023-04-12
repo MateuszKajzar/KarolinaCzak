@@ -1,5 +1,5 @@
 .heroSection {
-    margin-top: 100px;
+    padding-top: 100px;
 }
 
 img {
@@ -9,4 +9,8 @@ img {
 
 .text-label {
     padding-top: 150px;
+}
+
+.heroSection {
+    background-color: azure;
 }

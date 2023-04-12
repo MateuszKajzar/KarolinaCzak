@@ -14,7 +14,7 @@ import './MyNavbar.css';
 function MyNavbar() {
     return (
         <Navbar collapseOnSelect expand="lg" variant="light" sticky='top'>
-            <Container>
+            <Container className='navbar'>
                 <Navbar.Brand href="/">Karolina Czak</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
