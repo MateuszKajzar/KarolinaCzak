@@ -11,6 +11,7 @@ import Product from "./pages/Product/Product";
 import Products from "./pages/Products/Products";
 import Kwalifikacje from "./pages/Kwalifikacje/Kwalifikacje";
 import Kontakt from "./pages/Kontakt/Kontakt";
+import Cart from "./pages/Cart/Cart";
 
 //css
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -53,6 +54,10 @@ const router = createBrowserRouter([
       {
         path: "/kwalifikacje",
         element: <Kwalifikacje />,
+      },
+      {
+        path: "/cart",
+        element: <Cart />,
       },
     ],
   },

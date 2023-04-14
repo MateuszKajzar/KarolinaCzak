@@ -22,10 +22,10 @@ function MyNavbar() {
                         <Nav.Link href="/kontakt">Kontakt</Nav.Link>
                         <Nav.Link href="/kwalifikacje">Kwalifikacje</Nav.Link>
                         <NavDropdown title="produkty" id="collasible-nav-dropdown">
-                            <NavDropdown.Item href="/product/:0"> Wszystkie</NavDropdown.Item>
+                            <NavDropdown.Item href="/products/:0"> Wszystkie</NavDropdown.Item>
                             <NavDropdown.Divider />
-                            <NavDropdown.Item href="/product/:1">Darmowe</NavDropdown.Item>
-                            <NavDropdown.Item href="/product/:2">Płatne</NavDropdown.Item>
+                            <NavDropdown.Item href="/products/:1">Darmowe</NavDropdown.Item>
+                            <NavDropdown.Item href="/products/:2">Płatne</NavDropdown.Item>
 
                         </NavDropdown>
                     </Nav>
@@ -33,7 +33,7 @@ function MyNavbar() {
                         <Nav.Link href="#deets">
                             <AccountCircleOutlinedIcon />
                         </Nav.Link>
-                        <Nav.Link eventKey={2} href="#memes">
+                        <Nav.Link eventKey={2} href="/cart">
                             <div className="cartIcon">
                                 <ShoppingCartOutlinedIcon />
                                 <span>0</span>
